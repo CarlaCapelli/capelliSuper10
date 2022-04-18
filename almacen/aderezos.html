@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aderzos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Condiment&family=Explora&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Condiment&family=Explora&family=Grape+Nuts&family=Inspiration&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/paginas.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="../logoc.jpg" alt="logo" />
+      <h3>Almacen</h3>
+    </div>
+
+    <div class="bar">
+      <a href="index.html">Home</a>
+    </div>
+    <h4>Aderezos</h4>
+    <div class="prod">
+      <div class="blanco">
+        <img
+          class="fotoProd"
+          src="/fotos/mayoNatura.jpg"
+          alt="mayonesa Natura"
+        />
+        <p class="descripcion">Mayonesa NATURA Pouch 950 Gr</p>
+        <p class="precio">
+          $250,12
+        </p>
+        <button>Agregar</button>
+      </div>
+
+      <div class="naranja">
+        <img
+          class="fotoProd"
+          src="/fotos/mayoFiesta.jpg"
+          alt="mayonesa Fiesta"
+        />
+        <p class="descripcion">
+          Mayonesa FIESTA 500 Gr
+        </p>
+        <p class="precio">
+          $127,90
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="blanco">
+        <img
+          class="fotoProd"
+          src="/fotos/mostaNatura.jpg"
+          alt="mostaza Natura"
+        />
+        <p class="descripcion">Mostaza NATURA Pouch 500 Gr</p>
+        <p class="precio">
+          $135,39
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="naranja">
+        <img
+          class="fotoProd"
+          src="/fotos/mostaDanica.jpg"
+          alt="mostaza danica"
+        />
+        <p class="descripcion">
+          Mostaza DÁNICA 220 Gr
+        </p>
+        <p class="precio">
+          $68,90
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="blanco">
+        <img
+          class="fotoProd"
+          src="/fotos/mayoHellmanns.jpg"
+          alt="mostaza Natura"
+        />
+        <p class="descripcion">Mayonesa HELLMANNS Clásica Doypack 475 G</p>
+        <p class="precio">
+          $154,40
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="naranja">
+        <img
+          class="fotoProd"
+          src="/fotos/ketchupNatura.jpg"
+          alt="ketchup Natura"
+        />
+        <p class="descripcion">
+          Ketchup NATURA Pouch 250 Gr
+        </p>
+        <p class="precio">
+          $83,99
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="blanco">
+        <img
+          class="fotoProd"
+          src="/fotos/salsaNatura.jpg"
+          alt="mostaza Natura"
+        />
+        <p class="descripcion">Salsa Golf NATURA Pouch 250 Gr</p>
+        <p class="precio">
+          $83,99
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="naranja">
+        <img
+          class="fotoProd"
+          src="/fotos/mayoLightN.jpg"
+          alt="mayonesa light"
+        />
+        <p class="descripcion">
+          Mayonesa HELLMANNS Light 950 G Doypack
+        </p>
+        <p class="precio">
+          $379,00
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="blanco">
+        <img class="fotoProd" src="/fotos/savora.jpg" alt="savora" />
+        <p class="descripcion">Mostaza Original Savora Pou 500 Grmr</p>
+        <p class="precio">
+          $202,69
+        </p>
+        <button>Agregar</button>
+      </div>
+      <div class="naranja">
+        <img class="fotoProd" src="/fotos/mayoHeinz.jpg" alt="mayonesa Heinz" />
+        <p class="descripcion">
+          Mayonesa HEINZ Pouch 850 Grk
+        </p>
+        <p class="precio">
+          $402,21
+        </p>
+        <button>Agregar</button>
+      </div>
+
+      <div id="nuevoProd" class="naranja">
+        <img
+          id="nuevaImg"
+          class="fotoProd"
+          src="/fotos/capelliL.jpg"
+          alt="nuevo"
+        />
+
+        <p id="nuevaDesc" class="descripcion"></p>
+        <p id="nuevoPrec" class="precio"></p>
+        <button>Agregar</button>
+      </div>
+    </div>
+    <div class="agregarProd">
+      <p>Agregar producto</p>
+
+      <p>Producto</p>
+
+      <input id="inDesc" type="text" />
+      <p>Precio</p>
+      <input id="inPrec" type="text" />
+      <button id="nuevoBoton">Nuevo producto</button>
+      <script src="/ts/paginas.ts"></script>
+    </div>
+  </body>
+</html>
